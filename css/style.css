@@ -84,3 +84,20 @@
         right: 100%;
     }
 }
+
+footer {
+    background-color: #4B3621;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
