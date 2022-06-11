@@ -36,6 +36,7 @@
 .clouds {
     position: absolute;
     width: 550px;
+    animation: clouds-animation 20s infinite linear;
 
 }
 
@@ -71,4 +72,12 @@
     }
 }
 
-@keyframes clouds
+@keyframes clouds-animation {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
